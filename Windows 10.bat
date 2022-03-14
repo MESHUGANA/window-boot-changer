@@ -8,5 +8,6 @@ if not exist %temp%\bgbatch.vbs (
 )
 del /q %temp%\bgbatch.vbs
 
+:: change {here} to your target windows os id.
 bcdedit /default {8636c47b-a240-11ec-b692-fe55e51212be}
-shutdown -r -t 3 -c "Windows 10·Î ´Ù½Ã ½ÃÀÛÇÕ´Ï´Ù"
+shutdown -r -t 3 -c "Windows 10ï¿½ï¿½ ï¿½Ù½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½"
