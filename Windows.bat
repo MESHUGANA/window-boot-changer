@@ -9,5 +9,7 @@ if not exist %temp%\bgbatch.vbs (
 del /q %temp%\bgbatch.vbs
 
 :: change {here} to your target windows os id.
-bcdedit /default {8636c47b-a240-11ec-b692-fe55e51212be}
-shutdown -r -t 3 -c "Windows 10�� �ٽ� �����մϴ�"
+bcdedit /default {id}
+
+:: change number and "here" to your prefer time and message
+shutdown -r -t 5 -c "Restart message"
