@@ -4,11 +4,15 @@ Restart to other Windows OS
 
 ## How to use
 
-Run **Command Prompt** or **Windows PowerShell** as administrator.
+Download `Windows.bat`.
+
+Run **Command Prompt(cmd)** or **Windows PowerShell** as administrator.
 
 Run this command to get target Windows id.
 
-```bcdedit /v```
+```bat
+bcdedit /v
+```
 
 Then you can find **identifier - `{id}`** of your target Windows.
 
@@ -39,8 +43,15 @@ Also you can pin it to the start menu.
 ## Commands on terminal for yourself
 ### Set yout target Windows to default OS
 
-- cmd: ```bcdedit /default {target Windows id}```
-- powershell: ```bcdedit /default '{id}'```
+- Command Prompt
+```bat
+bcdedit /default {target Windows id}
+```
+
+- powershell
+```bat
+bcdedit /default '{id}'
+```
 
 ### shutdown
 
